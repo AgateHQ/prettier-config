@@ -1,0 +1,9 @@
+{
+  "name": "@agateHQ/prettier-config",
+  "version": "1.0.1",
+  "description": "Shared config for Prettier for frontend projects @ Axate",
+  "main": "index.json",
+  "repository": "git@github.com:agateHQ/prettier-config.git",
+  "author": "Axate Developers <support@axate.com>",
+  "license": "MIT"
+}
