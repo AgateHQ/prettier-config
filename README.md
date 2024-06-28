@@ -1,4 +1,4 @@
-# `@agateHQ/prettier-config`
+# `@axate/prettier-config`
 
 Shared config for Prettier for frontend projects @ axate.com
 
@@ -7,7 +7,7 @@ Shared config for Prettier for frontend projects @ axate.com
 **Install**
 
 ```
-yarn add --dev @agateHQ/prettier-config
+yarn add --dev @axate/prettier-config
 ```
 
 **a) use with package.json**
@@ -16,7 +16,7 @@ yarn add --dev @agateHQ/prettier-config
 // package.json
 {
   ...,
-  "prettier": "@agateHQ/prettier-config"
+  "prettier": "@axate/prettier-config"
 }
 ```
 
@@ -24,7 +24,7 @@ yarn add --dev @agateHQ/prettier-config
 
 ```
 // .prettierrc.json
-"@agateHQ/prettier-config"
+"@axate/prettier-config"
 ```
 
 **Overrides**
@@ -34,7 +34,7 @@ Options above do not allow to extend the configuration. For that, you need to us
 ```
 // .prettierrc.js
 module.exports = {
-  ...require("@agateHQ/prettier-config"),
+  ...require("@axate/prettier-config"),
   // custom overrides here
 };
 ```
